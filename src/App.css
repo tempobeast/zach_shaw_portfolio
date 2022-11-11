@@ -1,38 +1,81 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-image: linear-gradient(180deg, rgb(27, 27, 27),  black 15%);
   color: white;
+  height: 900px;
 }
 
-.App-link {
-  color: #61dafb;
+.project-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: auto;
+  padding: 1rem;
+  background-color: rgb(0, 0, 0);
+  height: 368px
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.project-container-border {
+  width: 80%;
+  height: 400px;
+  padding: 1rem;
+  position: relative;
+  background: linear-gradient(135deg, red, purple 12%, black 12%, black 88%, purple 88%, red);
+  padding: 15px;
+  margin: auto;
+  animation-duration: .3s;
+  animation-iteration-count: 1;
+}
+
+.project-container-border:hover {
+  animation-name: slide;
+  animation-timing-function: ease-in;
+}
+
+@keyframes slide {
+  0% {
+    background: linear-gradient(135deg, red, purple 15%, black 15%, black 85%, purple 85%, red);
   }
-  to {
-    transform: rotate(360deg);
+  10% {
+    background: linear-gradient(153deg, red, purple 15%, black 15%, black 85%, purple 85%, red);
   }
+  20% {
+    background: linear-gradient(171deg, red, purple 15%, black 15%, black 85%, purple 85%, red);
+  }
+  30% {
+    background: linear-gradient(189deg, red, purple 15%, black 15%, black 85%, purple 85%, red);
+  }
+  40% {
+    background: linear-gradient(207deg, red, purple 15%, black 15%, black 85%, purple 85%, red);
+  }
+  50% {
+    background: linear-gradient(225deg, red, purple 15%, black 15%, black 85%, purple 85%, red);
+  }
+  60% {
+    background: linear-gradient(243deg, red, purple 15%, black 15%, black 85%, purple 85%, red);
+  }
+  70% {
+    background: linear-gradient(261deg, red, purple 15%, black 15%, black 85%, purple 85%, red);
+  }
+  80% {
+    background: linear-gradient(279deg, red, purple 15%, black 15%, black 85%, purple 85%, red);
+  }
+  90% {
+    background: linear-gradient(297deg, red, purple 15%, black 15%, black 85%, purple 85%, red);
+  }
+  100% {
+    background: linear-gradient(315deg, red, purple 15%, black 15%, black 85%, purple 85%, red);
+  }
+}
+
+.project {
+  width: 70%;
+  text-align: left;
+  padding: 20px;
+}
+
+.project-list {
+  width: 30%;
+  text-align: left;
+  padding: 20px;
 }
