@@ -1,9 +1,11 @@
-function ProjectList () {
+import React from "react"
+
+function ProjectList ({ projectData, setClickedProject }) {
+
     return (
         <div className="project-list">
-                <p>Project 1</p>
-                <p>Project 2</p>
-                <p>Project 3</p>
+            <hr></hr>
+            {projectData.map((project) => <h4 key={project.name} onClick={(e) => setClickedProject(project)}>{project.name}</h4>)}
         </div>
     )
 }
