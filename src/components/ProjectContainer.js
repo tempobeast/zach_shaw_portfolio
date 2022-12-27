@@ -5,7 +5,6 @@ import ProjectList from './ProjectList';
 function ProjectContainer ({ projectData }) {
     const [clickedProject, setClickedProject] = useState({})
 
-
     return (
         <div className='project-container-border'>
             <div className="project-container">
