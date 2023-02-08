@@ -16,7 +16,7 @@ const projectData = [
         url: ""
     },
     {
-        name: "Track Tracker App",
+        name: "Track It!",
         description: "Workout scheduling and tracking for coaches. Training log for athletes.",
         image: "",
         video: "",
