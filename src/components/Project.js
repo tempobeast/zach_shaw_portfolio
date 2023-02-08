@@ -2,7 +2,7 @@ import React from "react"
 import YouTubeEmbed from './YouTubeEmbed'
 
 function Project ({clickedProject}) {
-    const {name, description, video, gitHub, image, url} = clickedProject
+    const {name, description, video, gitHub, url} = clickedProject
 
     return (
         <div className="project">
