@@ -1,10 +1,10 @@
 import './App.css';
 import Header from './components/Header';
 import ProjectContainer from './components/ProjectContainer';
-import projectData from './data.js'
+import projectData from './data.js';
 
 function App() {
-  
+
   return (
     <div className="App">
       <Header />
