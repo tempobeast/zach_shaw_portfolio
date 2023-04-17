@@ -22,7 +22,15 @@ const projectData = [
         video: "",
         gitHub: "",
         url: ""
-    }
+    },
+    {
+        name: "What's My Age Again?",
+        description: "Celebrity age guessing app",
+        image: "",
+        video: "",
+        gitHub: "",
+        url: ""
+    }, 
 ]
 
 export default projectData
