@@ -27,7 +27,7 @@ const projectData = [
         name: "What's My Age Again?",
         description: "Celebrity age guessing app",
         image: "",
-        video: "",
+        video: "https://studio.youtube.com/video/2kk-BEsrq5M/edit",
         gitHub: "",
         url: ""
     }, 

@@ -7,9 +7,9 @@ function Project ({clickedProject}) {
     return (
         <div className="project">
             <div className="project_titles_container">
-                <h3>{name}</h3>
-                {url ? <a href={url} className="social_links">App</a> : null}
-                {gitHub ? <a href={gitHub} className="social_links">GitHub</a> : null}
+                <h3 className="project-name">{name}</h3>
+                {url ? <a href={url} className="social_link">App</a> : null}
+                {gitHub ? <a href={gitHub} className="social_link">GitHub</a> : null}
             </div>
             { clickedProject ? <YouTubeEmbed name={name} video={video}></YouTubeEmbed> : null}
             <p>{description}</p>
